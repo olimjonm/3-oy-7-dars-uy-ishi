@@ -1,0 +1,101 @@
+@import "./normalize.css";
+
+@import "./fonts.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+img {
+  display: flex;
+  object-fit: cover;
+}
+
+h1 {
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+main {
+  flex-grow: 1;
+}
+
+.container {
+  width: 100%;
+  max-width: 1380px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* footer start */
+.footer {
+}
+.footer-container {
+  width: 1256px;
+  height: 333px;
+  top: 5737px;
+  left: 160px;
+  color: #666dff;
+}
+.img-link {
+  width: 1256px;
+  height: 333px;
+  top: 5737px;
+  left: 160px;
+  color: #666dff;
+}
+.img-link-1 {
+}
+.img-link-2 {
+  display: flex;
+  width: 333px;
+  height: 24px;
+  angle: 90 deg;
+}
+.box-text {
+}
+.box-text-2 {
+}
+.imput {
+}
+.img-link-foto {
+}
+.img-foto {
+}
+.text-number {
+}
+.dlf-text {
+}
+.honalar-otasi {
+  display: flex;
+  flex-direction: column;
+
+  flex-wrap: wrap;
+  s
+}
+
+.honalar {
+}
